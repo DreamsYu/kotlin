@@ -49,14 +49,15 @@ enum class LanguageFeature(
     NoDelegationToJavaDefaultInterfaceMembers(KOTLIN_1_1),
     DefaultImportOfPackageKotlinComparisons(KOTLIN_1_1),
 
+    SafeCastCheckBoundSmartCasts(KOTLIN_1_3),
+    BooleanElvisBoundSmartCasts(KOTLIN_1_3),
+    CapturedInClosureSmartCasts(KOTLIN_1_3),
+
     ArrayLiteralsInAnnotations(KOTLIN_1_2),
     InlineDefaultFunctionalParameters(KOTLIN_1_2),
     SoundSmartCastsAfterTry(KOTLIN_1_2),
     DeprecatedFieldForInvisibleCompanionObject(KOTLIN_1_2),
     NullabilityAssertionOnExtensionReceiver(KOTLIN_1_2),
-    SafeCastCheckBoundSmartCasts(KOTLIN_1_2),
-    BooleanElvisBoundSmartCasts(KOTLIN_1_2),
-    CapturedInClosureSmartCasts(KOTLIN_1_2),
     LateinitTopLevelProperties(KOTLIN_1_2),
     LateinitLocalVariables(KOTLIN_1_2),
     InnerClassInEnumEntryClass(KOTLIN_1_2),
